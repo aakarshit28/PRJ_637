@@ -1,0 +1,36 @@
+{
+  "name": "orgintel-governance-platform",
+  "version": "3.0.0",
+  "description": "ORGINTEL - Digital Governance Performance Assessment: automated data collection, organisation performance analytics, AI reporting and executive dashboards",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "governance",
+    "performance-assessment",
+    "kpi",
+    "executive-dashboard",
+    "ai-reporting",
+    "analytics"
+  ],
+  "author": "ORGINTEL Team",
+  "license": "MIT",
+  "optionalDependencies": {
+    "nodemailer": "^6.9.14"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aakarshit28/PRJ_637.git"
+  },
+  "files": [
+    "server.js",
+    "server/",
+    "public/"
+  ]
+}
