@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Runtime data and secrets (accounts, organisation figures, API keys)
+data/
+.env
+.env.*
+!.env.example
+
+# Logs and OS / editor files
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Local tooling, not part of the project
+.claude/
+.agents/
+skills-lock.json
+
+# Local backups
+_backup_*/
+*.bak
